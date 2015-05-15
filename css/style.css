@@ -1,10 +1,10 @@
 body{
-		font-family: 'Press Start 2P', cursive;
-		text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
 }
 
 /*scoreboard not positioned properly yet*/
-div{
+.board{
 	float:left;
 	font-size: 18pt;
 	width: 100px;
@@ -12,4 +12,21 @@ div{
 	border-width: 1px;
 	border-color: black;
 	border-style: solid;
+}
+
+.wrapper{
+    margin: 0 auto;
+	width: 306px;
+}
+
+#p1{
+	float: left;
+}
+#p2{
+	float: right;
+}
+
+.headwrap{
+	clear: both;
+	border-bottom-style: dotted;
 }
